@@ -6,4 +6,5 @@ export interface IProduct {
     description: string,
     status: string,
     date_created: string;
+    product_type: string;
 }

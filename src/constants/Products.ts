@@ -17,6 +17,7 @@ export const PRODUCTS = [
     price: 9.99,
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, pariatur.",
     status: "Available",
+    product_type: "shoes",
     date_created: "22-10-2023"
   },
   {
@@ -27,6 +28,7 @@ export const PRODUCTS = [
     price: 9.99,
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, pariatur.",
     status: "Available",
+    product_type: "shoes",
     date_created: "22-10-2023"
   },
   {
@@ -37,6 +39,7 @@ export const PRODUCTS = [
     price: 9.99,
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, pariatur.",
     status: "Available",
+    product_type: "shoes",
     date_created: "22-10-2023"
   },
 ];

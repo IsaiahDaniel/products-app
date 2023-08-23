@@ -15,9 +15,9 @@ const ProductItem = ({ image, name, price, id }: ProductItemProps) => {
 
   return (
     <div>
-        <img src={image} className='w-[350px] object-cover' alt={name} />
-        <h2>{name}</h2>
-        <p>{price}</p>
+        <img src={image} className='w-[350px] object-cover rounded-md' alt={name} />
+        <h2 className='text-lg font-bold'>{name}</h2>
+        <p>${price}</p>
         <div onClick={() => navigate(`/products/${id}`)}>
           <Button buttonName='Buy Now' />
         </div>
