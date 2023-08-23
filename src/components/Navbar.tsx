@@ -15,9 +15,7 @@ const Navbar = (props: Props) => {
         
 
           <ul>
-              <li>
-                {/* <Link></Link> */}
-                Products</li>
+              <li onClick={() => navigate("/products")} className='cursor-pointer text-base'>Products</li>
           </ul>
       </div>
     </nav>
